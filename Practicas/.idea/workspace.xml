@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80508707-e81d-4d47-92c0-21f5d4bc917f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Practica2/producto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cursor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbtest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_producto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_web/inicio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_web/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/ConexionDB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/conexion_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Practicas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Practicas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practica2/producto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practica2/producto.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Dockerfile" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -34,25 +39,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.pytest for test.test_calcular_temperatura.test_temperatura_frio.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test.test_clasificar_calificacion.test_calificacion_aprobado.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test.test_clasificar_calificacion.test_calificacion_sobresaliente.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_calcular_temperatura.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_clasificar_calificacion.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_producto.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cursor.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dbtest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/angel/Documentos/GitHub/Tecnicas-de-Pruebas-de-Software/Practicas&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.pytest for test.test_calcular_temperatura.test_temperatura_frio.executor": "Run",
+    "Python tests.pytest for test.test_clasificar_calificacion.test_calificacion_aprobado.executor": "Run",
+    "Python tests.pytest for test.test_clasificar_calificacion.test_calificacion_sobresaliente.executor": "Run",
+    "Python tests.pytest in test_calcular_temperatura.py.executor": "Run",
+    "Python tests.pytest in test_clasificar_calificacion.py.executor": "Run",
+    "Python tests.pytest in test_producto.py.executor": "Run",
+    "Python.conexion_db.executor": "Run",
+    "Python.cursor.executor": "Run",
+    "Python.dbtest.executor": "Run",
+    "Python.inicio.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/angel/Documentos/GitHub",
+    "settings.editor.selected.configurable": "PyConsoleConfigurable.Python Console"
   }
-}</component>
-  <component name="RunManager" selected="Python tests.pytest in test_producto.py">
+}]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Practicas" sdk-home="$USER_HOME$/Escritorio/trabajos de tecnicas/mi_entorno/bin/python">
+        <option name="sdk">
+          <Sdk />
+        </option>
+        <option name="mySdkHome" value="$USER_HOME$/Escritorio/trabajos de tecnicas/mi_entorno/bin/python" />
+        <option name="mySdk">
+          <Sdk />
+        </option>
+        <option name="myModuleName" value="Practicas" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app_web/templates" />
+      <recent name="$PROJECT_DIR$/app_web" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.inicio">
+    <configuration name="conexion_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Practicas" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/db" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/db/conexion_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="cursor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Practicas" />
       <option name="ENV_FILES" value="" />
@@ -99,40 +152,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_calcular_temperatura.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="inicio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Practicas" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app_web" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_calcular_temperatura.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_clasificar_calificacion.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Practicas" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_clasificar_calificacion.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app_web/inicio.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_producto.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -155,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.inicio" />
+        <item itemvalue="Python.conexion_db" />
         <item itemvalue="Python tests.pytest in test_producto.py" />
         <item itemvalue="Python.dbtest" />
         <item itemvalue="Python.cursor" />
-        <item itemvalue="Python tests.pytest in test_clasificar_calificacion.py" />
-        <item itemvalue="Python tests.pytest in test_calcular_temperatura.py" />
       </list>
     </recent_temporary>
   </component>

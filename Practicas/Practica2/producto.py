@@ -25,6 +25,7 @@ class Producto:
             raise NombreVacioProductoError("El nombre no puede estar vacío.")
         if len(nombre) > 50:
             raise NombreProductoError("El nombre no puede exceder los 50 caracteres.")
+
         # Si es cadena pero representa un número? la especificación dice "valor numérico",
         # interpretamos tipo numérico, no contenido. Dejamos pasar cadenas que parezcan números.
         self.nombre = nombre
